@@ -15,7 +15,17 @@ class Light(Device):
        "Свет выключен" если is_on False.
     """
     def __init__(self, brand, brightness):
+        super().__init__(brand)
+        if 0 <= brightness <= 100:
+            self.brightness = brightness
+        else:
+            self.brightness = max(0, min(100, brightness))
+
         pass
 
     def work(self):
+        if self.is_on:
+            self.is_on = False
+        else:
+            self.is_on = True
         pass

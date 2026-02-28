@@ -12,15 +12,20 @@ class Circle(Shape):
     3. Используйте math.pi.
     """
     def __init__(self, radius):
+        self.radius = radius
         pass
 
     def get_area(self):
+        return math.pi * self.radius ** 2
         pass
 
 class Square(Shape):
     """ЗАДАЧА: Реализовать площадь квадрата (сторона * сторона)"""
     def __init__(self, side):
+        self.side = side
         pass
 
     def get_area(self):
+        return self.side ** 2
+
         pass

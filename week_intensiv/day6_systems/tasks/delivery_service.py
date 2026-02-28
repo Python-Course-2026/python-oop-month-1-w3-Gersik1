@@ -19,4 +19,5 @@ class DeliveryService:
        - Вернуть "Заказ {id} доставлен курьером {name}".
     """
     def deliver(self, order: Order, courier: Courier):
+
         pass

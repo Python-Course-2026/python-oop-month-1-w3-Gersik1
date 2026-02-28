@@ -23,6 +23,7 @@ class CRM:
         self.clients.append(client)
 
     def get_client(self, client_id):
+
         # ТВОЙ КОД ЗДЕСЬ
         pass
 

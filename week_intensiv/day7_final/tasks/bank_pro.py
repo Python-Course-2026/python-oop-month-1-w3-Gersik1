@@ -17,6 +17,7 @@ class Account:
         return False
 
 class SavingsAccount(Account):
+
     """Сберегательный счет: нельзя снимать больше, чем есть (уже в родителе)"""
     pass
 

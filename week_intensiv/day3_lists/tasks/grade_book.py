@@ -1,4 +1,8 @@
 class GradeBook:
     """ЗАДАЧА: Найти имя студента с самым высоким средним баллом"""
     def __init__(self): self.students = {} # {"Ivan": [5, 4], "Oleg": [3]}
-    def get_best_student(self): pass
+    def get_best_student(self):
+        def __init__(self):
+            self.students = {}
+        def get_student(self):
+            pass

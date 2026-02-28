@@ -20,4 +20,5 @@ class Market:
        - Добавить item в список buyer.inventory.
     """
     def deal(self, buyer: Participant, seller: Participant, item: Item):
+
         pass
